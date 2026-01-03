@@ -1,11 +1,5 @@
-import React from "react";
-
-const App = () => {
+export default function App() {
   return (
-    <div>
-      <h1>RandomProject</h1>
-    </div>
+    <div style={{ color: "black", fontSize: "40px" }}>REACT IS WORKING</div>
   );
-};
-
-export default App;
+}
