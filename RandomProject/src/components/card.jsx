@@ -1,23 +1,42 @@
 import { Bookmark } from "lucide-react";
 
-const card = () => {
+const Card = (props) => {
   return (
-    <div>
-      <div className="main">
-        <div className="upper">
-          <img
-            src="https://t3.ftcdn.net/jpg/16/79/77/94/360_F_1679779401_ASmi9WB9px4q4KycnLywhxi4ZJTIHQVF.jpg"
-            alt="#"
-          />
-          <button>
-            Save <Bookmark size={14} />
-          </button>
+    <div className="card">
+      <div className="upper">
+        <div className="img">
+          <img src={props.brandLogo} alt="#" />
         </div>
-        <div className="center"></div>
-        <div className="lower"></div>
+
+        <button>
+          Save
+          <Bookmark size={16} stroke-width={2} />
+        </button>
+      </div>
+      <div className="center">
+        <span>
+          <strong>{props.company}</strong> <span>{props.datePosted}</span>
+        </span>
+
+        <h2>{props.post}</h2>
+        <h4>
+          <span>{props.tag1}</span>
+          <span>{props.tag2}</span>
+        </h4>
+      </div>
+
+      <div className="lower">
+        <hr className="divider" />
+        <div className="lower2">
+          <h6>
+            <strong>{props.pay}</strong>
+            <p>{props.location}</p>
+          </h6>
+          <button>Apply now</button>
+        </div>
       </div>
     </div>
   );
 };
 
-export default card;
+export default Card;
