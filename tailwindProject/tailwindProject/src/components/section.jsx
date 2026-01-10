@@ -71,6 +71,12 @@ const Section = () => {
         "https://i.pinimg.com/736x/ee/45/69/ee456989430d2229aeaabde838d3723c.jpg",
       description: "Fuck Muzan Kibutsuji",
     },
+    {
+      fullName: "Kokoshibo Tsugikuni",
+      image:
+        "https://imgs.search.brave.com/wC_virtMfZOhWXfGSuEF6J3E1MDrC2p2zrK5NJOfH6Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZGVt/b24tc2xheWVyLWtv/a3VzaGliby1ra2Zk/bTZxOHphcXA1cHY0/LmpwZw",
+      description: "Upper Moon 1",
+    },
   ];
   return (
     <div className="bg-red-600 font-mono h-158 w-auto  truncate rounded-4xl shadow-2xl">
