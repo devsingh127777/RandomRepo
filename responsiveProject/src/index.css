@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@font-face {
+  font-family: neue;
+  src: url("./assets/fonts/NeueMachina-Regular_DQCmjH1st.ttf");
+}
+@font-face {
+  font-family: hell;
+  src: url("./assets/fonts/HelveticaNowDisplay-Light_M4nzWhve6k.ttf");
+}
+@font-face {
+  font-family: gill;
+  src: url("./assets/fonts/Gilroy-Bold_JK4cTGJOE.ttf");
+}
+.green {
+  color: #04b045;
+}
+.gray {
+  color: #6b7280;
+}

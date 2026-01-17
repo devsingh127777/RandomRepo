@@ -42,7 +42,11 @@ const App = () => {
               Recent Notes
             </h1>
             <div className="flex p-2 flex-row flex-wrap h-full overflow-y-auto gap-4">
-              <div className="bg-red-400 h-60 w-50"></div>
+              <img
+                src="https://imgs.search.brave.com/LYL8cApls4Ks5xpa1guBK1hsM_GZ9jq-AGWYXcT57qU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjQv/NTg0LzQyMy9zbWFs/bC93aGl0ZS1zdGlj/a3ktbm90ZS13aXRo/LWdyZWVuLXdhc2hp/LXRhcGUtcG5nLnBu/Zw"
+                alt=""
+                className="h-60 w-50"
+              />
               <div className="bg-red-400 h-60 w-50"></div>
               <div className="bg-red-400 h-60 w-50"></div>
               <div className="bg-red-400 h-60 w-50"></div>
